@@ -1,0 +1,6 @@
+numpy>=1.21,<2.0
+scipy>=1.7
+scikit-learn>=1.0
+plyfile>=0.7
+PyYAML>=5.4
+tqdm>=4.60

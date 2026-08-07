@@ -1,0 +1,13 @@
+# ScanNet v2 (20 classes) -- preparation-stage paths.
+#
+# scene_root  Pointcept-format ScanNet scenes:
+#             <scene_root>/{train,val}/<scene>/{coord,color,normal,segment20,...}.npy
+# gs_root     3D Gaussian Splatting reconstructions (SceneSplat-7K).
+# gs_ply_template
+#             Gaussian PLY sub-path relative to gs_root. Adjust to your layout:
+#             SceneSplat-7K releases use "{scene}/ckpts/point_cloud_30000.ply";
+#             a flattened export uses "{scene}/point_cloud.ply".
+
+scene_root: /path/to/pointcept/data/scannet
+gs_root: /path/to/scenesplat7k/scannet
+gs_ply_template: "{scene}/ckpts/point_cloud_30000.ply"

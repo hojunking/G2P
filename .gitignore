@@ -1,0 +1,27 @@
+# Datasets and generated assets
+data/
+*/data/
+segmentation/exp/
+segmentation/pre_trained/*
+!segmentation/pre_trained/.gitkeep
+
+# Model weights and preparation-stage output
+*.pth
+*.ckpt
+*.npy
+*.ply
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Tooling
+.vscode/
+.idea/
+wandb/
+.ipynb_checkpoints/
+.DS_Store
