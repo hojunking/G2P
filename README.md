@@ -11,7 +11,12 @@ Official PyTorch implementation of the paper **"G2P: Gaussian-to-Point Attribute
 
 <sup>\*</sup> Equal contribution &nbsp;&nbsp; <sup>†</sup> Corresponding author
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.03510-red)](https://arxiv.org/abs/2601.03510) [![Project Page](https://img.shields.io/badge/Project%20Page-G2P-green)](https://hojunking.github.io/webpages/G2P/)
+[![Project Page](https://img.shields.io/badge/Project%20Page-G2P-blue)](https://hojunking.github.io/webpages/G2P/)
+[![Paper](https://img.shields.io/badge/Paper-Springer-brightgreen)](https://doi.org/10.1007/978-3-032-37531-5_8)
+[![arXiv](https://img.shields.io/badge/arXiv-2601.03510-b31b1b)](https://arxiv.org/abs/2601.03510)
+[![Presentation](https://img.shields.io/badge/Presentation-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=KKYeV8xUbNY)
+[![ECCV 2026](https://img.shields.io/badge/ECCV-2026-5b4b9a)](https://eccv.ecva.net/virtual/2026/poster/5646)
+[![Poster](https://img.shields.io/badge/Poster-orange)](https://drive.google.com/file/d/1tAS0qz6EhkVGWacyOME7wDzuMCARNeaw/view?usp=drive_link)
 
 ---
 
@@ -167,12 +172,15 @@ docs/           Data setup and training details
 ## Citation
 
 ```bibtex
-@article{song2026g2p,
-  title={G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Semantic Segmentation},
-  author={Song, Hojun and Song, Chae-yeong and Hong, Jeong-hun and Moon, Chaewon and Kim, Dong-hwi and Kim, Gahyeon and Kim, Soo Ye and Liao, Yiyi and Lee, Jaehyup and Park, Sang-hyo},
-  journal={arXiv e-prints},
-  pages={arXiv--2601},
-  year={2026}
+@inproceedings{song2026g2p,
+  title={G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Segmentation},
+  author={Song, Hojun and Song, Chae-yeong and Hong, Jeong-hun and Moon, Chaewon and Kim, Soo Ye and Liao, Yiyi and Lee, Jaehyup and Park, Sang-hyo},
+  booktitle={European Conference on Computer Vision},
+  pages={128--146},
+  year={2026},
+  organization={Springer},
+  doi={10.1007/978-3-032-37531-5_8},
+  url={https://doi.org/10.1007/978-3-032-37531-5_8}
 }
 ```
 
