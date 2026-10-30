@@ -167,12 +167,12 @@ docs/           Data setup and training details
 ## Citation
 
 ```bibtex
-@article{song2025g2p,
-  title   = {G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Segmentation},
-  author  = {Song, Hojun and Song, Chae-yeong and Hong, Jeong-hun and Moon, Chaewon and
-            Kim, Soo Ye and Liao, Yiyi and Lee, Jaehyup and Park, Sang-hyo},
-  journal = {arXiv preprint arXiv:2601.03510},
-  year    = {2025}
+@article{song2026g2p,
+  title={G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Semantic Segmentation},
+  author={Song, Hojun and Song, Chae-yeong and Hong, Jeong-hun and Moon, Chaewon and Kim, Dong-hwi and Kim, Gahyeon and Kim, Soo Ye and Liao, Yiyi and Lee, Jaehyup and Park, Sang-hyo},
+  journal={arXiv e-prints},
+  pages={arXiv--2601},
+  year={2026}
 }
 ```
 
